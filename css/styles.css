@@ -1,0 +1,94 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Gallery Styling */
+figure img{
+    width: 100px;
+}
+
+figure {
+    background: black;
+    padding: 20px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.lg-backdrop {
+    background: rgba(62, 76, 99, .87);
+}
+
+.lg-image {
+    box-shadow: 0 0 30px #333;
+}
+
+/* Captions */
+.caption {
+    display: none;
+}
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+  body {
+       background: red;
+  }
+  
+    figure {
+        width: 25%;
+    }
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+  body {
+       background: green;
+  }
+
+    figure {
+        width: 50%;
+    }
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+  body {
+       background: blue;
+  }
+
+    figure {
+        width: 90%;
+    }
+    
+/*  Main */
+main {
+    margin: 0 auto;
+    width: 90%;
+    
+}
