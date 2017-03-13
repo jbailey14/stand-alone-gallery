@@ -15,7 +15,9 @@ figure img{
 }
 
 figure {
-    background: black;
+    background: rgba(97, 97, 97, 0.5);
+    border-radius: 2em;
+    border: lightblue solid 2px;
     padding: 20px;
     
     
@@ -53,7 +55,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: red;
+       background: gray url("../img/texture1.png");
   }
   
     figure {
@@ -66,7 +68,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: green;
+       background: gray url("../img/texture1.png");;
   }
 
     figure {
@@ -79,7 +81,7 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: blue;
+       background: gray url("../img/texture1.png");;
   }
 
     figure {
