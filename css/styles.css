@@ -9,6 +9,8 @@ header {
   justify-content: center;
 }
 
+
+
 /* Gallery Styling */
 figure img{
     width: 100px;
@@ -41,10 +43,37 @@ figure {
     box-shadow: 0 0 30px #333;
 }
 
+.banner {
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C42127;
+    background: #B2C5D3;
+    border-radius: 6px;
+} 
+    
+}
+
 /* Captions */
 .caption {
     display: none;
 }
+
+/* Welcome Page */
+.logo {
+    width: 200px;
+    margin: 30em auto;
+    padding: 20px;
+    background: rgba(97, 97, 97, 0.35);
+    border: lightblue solid 5px;
+    border-radius: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 /********************
