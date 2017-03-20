@@ -21,6 +21,7 @@ figure {
     border-radius: 2em;
     border: lightblue solid 2px;
     padding: 20px;
+    box-shadow: 0.3125em 0.3125em 0.625em black;
     
     
     display: flex;
@@ -43,6 +44,8 @@ figure {
     box-shadow: 0 0 30px #333;
 }
 
+/* Font Styling */
+
 .banner {
     font-size: 4em;
     text-align: center;
@@ -52,7 +55,10 @@ figure {
     border-radius: 6px;
 } 
     
+p {
+    color: lightblue;
 }
+
 
 /* Captions */
 .caption {
@@ -73,6 +79,25 @@ figure {
     align-items: center;
 }
 
+/* Link Effects ---------------------------------------------------*/
+a:link,
+a:visited{
+    color: #BAAC8C;
+    text-decoration: none;
+}
+
+a:focus {
+    background: #C42127;
+}
+
+a:hover {
+    color: #BAAC8C;
+    margin-left: 0.1875em;
+}
+
+a:active {
+    background: #F4AF1E;
+}
 
 
 
