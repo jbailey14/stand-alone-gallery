@@ -2,5 +2,6 @@
 $('figure').lightGallery({
   selector: 'a',
   thumbnail:true,
-  zoom:true
+  zoom:true,
+  mode: 'lg-slide-circular'
 });
