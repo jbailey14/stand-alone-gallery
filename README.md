@@ -1,3 +1,3 @@
-# Web 2 Starter
+# Stand Alone Gallery
 
-Put information about your project here. 
+Create gallery with lightgallery and customize. 
