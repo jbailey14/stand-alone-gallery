@@ -57,8 +57,18 @@ figure {
     
 p {
     color: lightblue;
+    text-align: center;
 }
 
+h3 {
+    color: #BAAC8C;
+    text-align: center;
+}
+
+figcaption {
+    color: lightblue;
+    
+}
 
 /* Captions */
 .caption {
@@ -77,6 +87,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    transition: width .5s;
+}
+
+.logo:hover {
+    width: 300px;
 }
 
 /* Link Effects ---------------------------------------------------*/
