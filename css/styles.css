@@ -54,6 +54,22 @@ textarea:focus {
   
 }
 
+
+/* Section Styling ------------------------------------------------------------*/
+
+section {
+    background: rgba(97, 97, 97, 0.5);
+    border-radius: 2em;
+    border: lightblue solid 2px;
+    padding: 20px;
+    margin: 20px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 /* Gallery Styling ------------------------------------------------------------*/
 figure img{
     width: 100px;
@@ -92,19 +108,44 @@ figure {
 
 p {
     color: lightblue;
-    text-align: center;
+    text-align: left;
 }
 
 h3 {
     color: #BAAC8C;
-    text-align: center;
+    text-align: left;
     font-size: 2em;
+}
+
+h4 {
+    color: #BAAC8C;
+    text-align: left;
+    font-size: 1.25em;
 }
 
 figcaption {
     color: lightblue;
     margin: 10px;
     max-width: 95%
+}
+
+.pop-out {
+  background: none;
+  border-radius: .5em;
+  padding: .5em 2em 1em;
+  margin: .5em auto 2em auto;
+  list-style: none;
+  max-width: 75%;
+  text-align: left;
+}
+
+.skills li {
+    border-radius: 8px;
+    border: 1px solid #BAAC8C;
+    display: inline-block;
+    background: lightblue;
+    padding: 10px;
+    margin: 5px 3px;
 }
 
 /* Captions --------------------------------------------------------*/
@@ -173,6 +214,35 @@ div {
   color: #C42127;
   border-color: #C42127;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
